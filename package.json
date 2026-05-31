@@ -1,0 +1,24 @@
+{
+  "name": "calculatucuota-showcase",
+  "version": "1.0.0",
+  "description": "Calculadora financiera web para simular hipotecas, préstamos personales y amortización anticipada de forma clara, visual y sin registro.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JorgeBaGa/calculatucuota-showcase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JorgeBaGa/calculatucuota-showcase/issues"
+  },
+  "homepage": "https://github.com/JorgeBaGa/calculatucuota-showcase#readme",
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}
