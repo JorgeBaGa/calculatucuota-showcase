@@ -113,10 +113,13 @@ El objetivo es que cualquier usuario pueda entender:
 - Evolución histórica de ambas series.
 - Comparación entre hipotecas a tipo fijo y variable.
 - Análisis estadístico de la estacionalidad mensual.
+- Escenario estadístico a 1, 3 y 6 meses con intervalos de incertidumbre y error histórico.
 - Actualización periódica a partir de fuentes oficiales.
 
 El análisis concluye que, una vez considerada la evolución general de los tipos,
-no existe un mes sistemáticamente más barato en el periodo reciente.
+no existe un mes sistemáticamente más barato en el periodo reciente. La página
+también publica una primera previsión experimental, diferenciada de los datos
+observados y de las ofertas bancarias.
 
 <p align="center">
   <img src="assets/screenshots/evolucion-tipo-medio-hipotecas.png" alt="Evolución del tipo hipotecario medio y análisis de estacionalidad en calculatucuota.es" width="900" />
@@ -197,7 +200,7 @@ Próximas mejoras previstas:
 - mejorar el sistema de compartir en móvil;
 - añadir comisión de amortización anticipada en porcentaje;
 - automatizar por completo la actualización mensual de los datos oficiales;
-- incorporar previsiones experimentales cuando exista suficiente historial de seguimiento fuera de muestra;
+- acumular un historial público de previsiones y resultados observados;
 - añadir más ejemplos guiados;
 - mejorar la salida visual de informes;
 - preparar comparativas más avanzadas.
