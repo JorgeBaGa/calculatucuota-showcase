@@ -2,7 +2,7 @@
 
 Herramienta financiera web para simular hipotecas, préstamos personales y amortización anticipada, y consultar la evolución del mercado hipotecario español con datos oficiales.
 
-[![Proyecto activo](https://img.shields.io/badge/estado-activo-brightgreen)]()
+[![Proyecto finalizado](https://img.shields.io/badge/estado-finalizado-blue)]()
 [![Código privado](https://img.shields.io/badge/código-privado-lightgrey)]()
 [![Astro](https://img.shields.io/badge/Astro-web-orange)]()
 [![React](https://img.shields.io/badge/React-UI-blue)]()
@@ -14,7 +14,7 @@ Herramienta financiera web para simular hipotecas, préstamos personales y amort
 
 ## Demo
 
-Web en producción:
+Web publicada:
 
 **https://calculatucuota.es**
 
@@ -185,25 +185,20 @@ Este repositorio es únicamente una presentación pública del proyecto. No cont
 
 ## Estado del proyecto
 
-Proyecto activo en producción.
+Proyecto finalizado y publicado.
 
 La aplicación combina simuladores financieros con información pública del mercado hipotecario para que el usuario pueda entender una financiación antes de hablar con un banco o comparar ofertas.
 
 ---
 
-## Roadmap
+## Mantenimiento
 
-Próximas mejoras previstas:
+El desarrollo funcional está cerrado. El mantenimiento posterior se limita a:
 
-- mejorar SEO y contenidos informativos;
-- añadir más explicaciones para usuarios no técnicos;
-- mejorar el sistema de compartir en móvil;
-- añadir comisión de amortización anticipada en porcentaje;
-- automatizar por completo la actualización mensual de los datos oficiales;
+- actualizar los datos oficiales cuando se publique un nuevo periodo;
 - acumular un historial público de previsiones y resultados observados;
-- añadir más ejemplos guiados;
-- mejorar la salida visual de informes;
-- preparar comparativas más avanzadas.
+- enviar y mantener el sitemap en Google Search Console;
+- trabajar el posicionamiento SEO según las consultas reales de búsqueda.
 
 ---
 
