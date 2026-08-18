@@ -113,13 +113,14 @@ El objetivo es que cualquier usuario pueda entender:
 - Evolución histórica de ambas series.
 - Comparación entre hipotecas a tipo fijo y variable.
 - Análisis estadístico de la estacionalidad mensual.
-- Escenario estadístico a 1, 3 y 6 meses con intervalos de incertidumbre y error histórico.
-- Actualización periódica a partir de fuentes oficiales.
+- Escenario estadístico a 1, 3 y 6 meses con intervalos del 80 % y 95 %.
+- Comparación automática entre cada previsión guardada y el resultado posterior del INE.
+- Actualización mensual a partir de fuentes oficiales.
 
 El análisis concluye que, una vez considerada la evolución general de los tipos,
 no existe un mes sistemáticamente más barato en el periodo reciente. La página
-también publica una primera previsión experimental, diferenciada de los datos
-observados y de las ofertas bancarias.
+también conserva cada previsión y añade después el dato real y su error,
+diferenciándolos de los tipos oficiales y de las ofertas bancarias.
 
 <p align="center">
   <img src="assets/screenshots/evolucion-tipo-medio-hipotecas.png" alt="Evolución del tipo hipotecario medio y análisis de estacionalidad en calculatucuota.es" width="900" />
@@ -195,8 +196,8 @@ La aplicación combina simuladores financieros con información pública del mer
 
 El desarrollo funcional está cerrado. El mantenimiento posterior se limita a:
 
-- actualizar los datos oficiales cuando se publique un nuevo periodo;
-- acumular un historial público de previsiones y resultados observados;
+- revisar la actualización automática mensual de los datos oficiales;
+- revisar el historial automático de previsiones y resultados observados;
 - enviar y mantener el sitemap en Google Search Console;
 - trabajar el posicionamiento SEO según las consultas reales de búsqueda.
 
