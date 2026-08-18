@@ -27,6 +27,10 @@ const pages = [
     name: "reducir-cuota-o-plazo.png",
     url: `${BASE_URL}/reducir-cuota-o-plazo/`,
   },
+  {
+    name: "evolucion-tipo-medio-hipotecas.png",
+    url: `${BASE_URL}/evolucion-tipo-medio-hipotecas/`,
+  },
 ];
 
 async function main() {

@@ -1,6 +1,6 @@
 ﻿# calculatucuota.es
 
-Calculadora financiera web para simular hipotecas, préstamos personales y amortización anticipada de forma clara, visual y sin registro.
+Herramienta financiera web para simular hipotecas, préstamos personales y amortización anticipada, y consultar la evolución del mercado hipotecario español con datos oficiales.
 
 [![Proyecto activo](https://img.shields.io/badge/estado-activo-brightgreen)]()
 [![Código privado](https://img.shields.io/badge/código-privado-lightgrey)]()
@@ -36,6 +36,8 @@ La herramienta permite simular de forma rápida:
 - préstamos personales;
 - amortización anticipada;
 - comparación entre reducir plazo y reducir cuota;
+- seguimiento del tipo hipotecario medio y del Euríbor;
+- análisis de si existe un mes sistemáticamente más barato para contratar una hipoteca;
 - informes descargables en PDF;
 - imagen compartible;
 - resumen en texto para copiar y enviar.
@@ -63,6 +65,7 @@ El objetivo es que cualquier usuario pueda entender:
 | Build | Static build |
 | Deploy | Vercel |
 | Dominio | calculatucuota.es |
+| Datos públicos | INE y Banco de España |
 
 ---
 
@@ -103,6 +106,22 @@ El objetivo es que cualquier usuario pueda entender:
 - Avisos cuando los datos introducidos no son coherentes.
 - Salida compartible en PDF, imagen y texto.
 
+### Evolución del tipo hipotecario medio
+
+- Último tipo hipotecario medio publicado por el INE.
+- Último Euríbor a 12 meses publicado por el Banco de España.
+- Evolución histórica de ambas series.
+- Comparación entre hipotecas a tipo fijo y variable.
+- Análisis estadístico de la estacionalidad mensual.
+- Actualización periódica a partir de fuentes oficiales.
+
+El análisis concluye que, una vez considerada la evolución general de los tipos,
+no existe un mes sistemáticamente más barato en el periodo reciente.
+
+<p align="center">
+  <img src="assets/screenshots/evolucion-tipo-medio-hipotecas.png" alt="Evolución del tipo hipotecario medio y análisis de estacionalidad en calculatucuota.es" width="900" />
+</p>
+
 ---
 
 ## Privacidad
@@ -141,6 +160,7 @@ La interfaz se organiza en páginas independientes:
 | `/calculadora-prestamo-personal` | Simulador de préstamo personal |
 | `/simulador-amortizacion` | Simulador de amortización anticipada |
 | `/reducir-cuota-o-plazo` | Explicación y acceso a comparativa |
+| `/evolucion-tipo-medio-hipotecas` | Datos actuales, evolución histórica y análisis de estacionalidad |
 
 ---
 
@@ -162,9 +182,9 @@ Este repositorio es únicamente una presentación pública del proyecto. No cont
 
 ## Estado del proyecto
 
-Proyecto activo en fase MVP.
+Proyecto activo en producción.
 
-La primera versión está centrada en ofrecer una experiencia clara, rápida y útil para usuarios que quieren entender mejor una financiación antes de hablar con un banco o comparar ofertas.
+La aplicación combina simuladores financieros con información pública del mercado hipotecario para que el usuario pueda entender una financiación antes de hablar con un banco o comparar ofertas.
 
 ---
 
@@ -176,7 +196,8 @@ Próximas mejoras previstas:
 - añadir más explicaciones para usuarios no técnicos;
 - mejorar el sistema de compartir en móvil;
 - añadir comisión de amortización anticipada en porcentaje;
-- revisar periódicamente tipos medios orientativos;
+- automatizar por completo la actualización mensual de los datos oficiales;
+- incorporar previsiones experimentales cuando exista suficiente historial de seguimiento fuera de muestra;
 - añadir más ejemplos guiados;
 - mejorar la salida visual de informes;
 - preparar comparativas más avanzadas.
